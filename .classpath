@@ -6,7 +6,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -16,7 +16,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="G:/Новая папка (3)/unirest-java-1.4.9.jar"/>
-	<classpathentry kind="lib" path="G:/Новая папка (3)/fastjson-1.2.37.jar"/>
+	<classpathentry exported="true" kind="lib" path="G:/Новая папка (3)/unirest-java-1.4.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="G:/Новая папка (3)/fastjson-1.2.37.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

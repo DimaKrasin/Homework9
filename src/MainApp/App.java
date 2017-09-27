@@ -1,5 +1,7 @@
 package MainApp;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
@@ -10,6 +12,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
+import javafx.scene.media.VideoTrack;
 import javafx.stage.Stage;
 
 public class App extends Application {
@@ -51,6 +54,11 @@ public class App extends Application {
 						
 							
 							System.out.println(response.getBody());
+							String jsonStr = response.getBody().toString();
+							TEST test =  JSON.parseObject(jsonStr,TEST.class);
+							System.out.println(	test.regionCode );
+						System.out.println(	test.items.get(0).snippet.channelTitle );
+								
 						} catch (UnirestException e) {
 						}
 						
